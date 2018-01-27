@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Encode+Sans|Maven+Pro'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="weather-display">
+  <h1>Local Weather</h1>
+
+  <p>
+    <span id="city"></span>
+    <span id="country"></span>
+  </p>
+  <p>
+    <img></img>
+    <span id="weatherMain"></span>
+  </p>
+  
+    <div id="temperatureC" class="temp-info">Temperature: </div>
+    <div id="farenheit" class="temp-info"></div>
+    
+</div>
+<div class="col-md-4 text-center"> 
+    <button id="C-F" name="Convert-Button" class="btn">Convert C/F</button> 
+</div>
+
+<div class="detail-display">
+ 
+  <p id="description" class='important-info text'></p>
+  <p id="ipAddress">Your IP address is: </p>
+  <p id="latitude">latitude: </p>
+  <p id="longitude">longitude: </p>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://platform.twitter.com/widgets.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
