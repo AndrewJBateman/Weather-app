@@ -1,8 +1,14 @@
 body {
-  background: url(https://w-dog.net/wallpapers/9/13/452498554612891/norway-lofoten-winter-night-northern-lights.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family:Arial, sans-serif;
+  font-size: 2em;
+  text-shadow: 0 0 10px #000;
+  color: #fff;
+  background: #888;
+  bacground-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 .weather-display {
@@ -12,7 +18,7 @@ body {
   position: center;
   text-align: center;
   margin: 5% auto auto auto;
-  width: 600px;
+  width: 400px;
   opacity: 0.7;
   }
 .detail-display {
@@ -21,7 +27,7 @@ body {
   padding: 50px 50px 50px 50px;
   position: center;
   margin: 5% auto auto auto;
-  width: 600px;
+  width: 400px;
   opacity: 0.7;
   }
 img {
@@ -35,6 +41,9 @@ img {
   bottom: 10px;
   position: relative;
   right: 2px;
+}
+h2, p {
+  color: black;
 }
 p {
   font-family: Maven+Pro;
