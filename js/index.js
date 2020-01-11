@@ -51,15 +51,15 @@ $.getJSON("https://ipapi.co/json/", function(data){
     if(tempC <= 14) 
       $('body').css('background-image', 'url(http://news.images.itv.com/image/file/557015/stream_img.jpg)');
 
-    elseif(tempC > 14 && tempC <= 20) 
+    else if(tempC > 14 && tempC <= 20) 
       $('body').css('background-image', 'url(https://images.unsplash.com/photo-1457461027293-311fd5a4a6d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44bde7759d80902f2be36bebbc5f693d&dpr=1&auto=format&fit=crop&w=376&h=251&q=60&cs=tinysrgb)')
-    elseif(tempC > 20 && tempC <= 25) 
+    else if(tempC > 20 && tempC <= 25) 
       $('body').css('background-image', 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl20Dd6w0E1YsLiJURWGMb9alVCS7uU6BR0oTSLWSKZTHHkEj_)')
     
-    elseif(tempC > 25 && tempC <= 34) 
+    else if(tempC > 25 && tempC <= 34) 
       $('body').css('background-image', 'url(https://i.pinimg.com/736x/3d/b9/c3/3db9c3c0b24412f7262580d14619bfce--phlebotomy-certification-bad-habits.jpg)')
     
-    elseif(tempC > 34) 
+    else if(tempC > 34) 
       $('body').css('background-image', 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzGG2Na4_QVqLLenQBjwXIhZkIPgLw7HDrBMzqKdsKw5JzSV2A7g)')
               
   }); //end of weather function
