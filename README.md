@@ -1,10 +1,10 @@
-# Javascript/jQuery Weather App
+# :zap: Javascript/jQuery Weather App
 
-Free Code Camp Assignment: [Take Home Projects - Show the Local Weather](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/show-the-local-weather). This was part of the old FCC curriculum but has been moved to a 'take-home-prroject' but I see the User Stories (Software Requirements) are still the same.
+* Free Code Camp Assignment: [Take Home Projects - Show the Local Weather](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/show-the-local-weather). This was part of the old FCC curriculum but has been moved to a 'take-home-prroject' but I see the User Stories (Software Requirements) are still the same.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -15,23 +15,23 @@ Free Code Camp Assignment: [Take Home Projects - Show the Local Weather](https:/
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * Uses an API to bring in weather data and display it.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/weather.png).
 
-## Technologies
+## :signal_strength: Technologies
 
 * Ran in Google Chrome browser with: [Javascript engine V8 7.9.317.32 for Windows (x64)](https://v8.dev/).
 
-## Setup
+## :floppy_disk: Setup
 
 * Open index.html in browser. If any code is changed the browser needs to be refreshed.
 
-## Code Examples
+## :computer: Code Examples
 
 * Function to convert Farenheit temperature values to Celcius.
 
@@ -48,21 +48,20 @@ $("#convert").click(function(){
     })/*end of convert function*/
 ```
 
-## Features
+## :cool: Features
 
 *  Background image changes according to temperature, as per specification.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working.
-
 * To-Do: Switched location to Japan sometimes if not Alcobendas Spain - find out wtf. Code could be optimised - e.g. using latest ES6 ternery expressions etc.
 
-## Inspiration
+## :clap: Inspiration
 
 * Free Code Camp Assignment: [Take Home Projects - Show the Local Weather](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/show-the-local-weather).
 * [Using Preload and Prefetch in Your HTML to Load Assets](https://alligator.io/html/preload-prefetch/)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
