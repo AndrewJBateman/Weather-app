@@ -1,8 +1,12 @@
 # :zap: Javascript/jQuery Weather App
 
 * Free Code Camp Assignment: [Take Home Projects - Show the Local Weather](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/show-the-local-weather). This was part of the old FCC curriculum but has been moved to a 'take-home-prroject' but I see the User Stories (Software Requirements) are still the same.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/javascript-jQuery-weather-api?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/javascript-jQuery-weather-api?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/javascript-jQuery-weather-api?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/javascript-jQuery-weather-api?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -62,6 +66,10 @@ $("#convert").click(function(){
 * Free Code Camp Assignment: [Take Home Projects - Show the Local Weather](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/show-the-local-weather).
 * [Using Preload and Prefetch in Your HTML to Load Assets](https://alligator.io/html/preload-prefetch/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
